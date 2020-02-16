@@ -1,10 +1,9 @@
-package com.shop.napkins.secured.components.controller;
+package com.shop.napkins.secured.components.controller.v1;
 
 import com.shop.napkins.secured.components.dataaccess.entity.OfferingInstance;
 import com.shop.napkins.secured.components.service.OfferingManagementService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
